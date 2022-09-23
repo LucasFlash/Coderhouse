@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <title>Full Sports Services</title>
 </head>
 <body>
   <h1> FULL SPORTS SERVICE</h1>
@@ -23,26 +24,46 @@
   <tr><td>Premiun</td><td>400</td></tr>
 </table>
 
+<div class="container">
+  <div class="row">
+<form id="Formulario">        
+  <div>
+      <label for="NomYApe" class="form-label">Nombre y Apellido</label>
+      <input id="NomYApe" name="NomYApe" type="text" class="form-control">            
+  </div>      
+<div class="mb-3">
+  <label for="anios" class="form-label">Cantidad de Años del Contrato</label>
+  <input type="number" name="anios" id="anios">
+</div>
+<div class="mb-3">
+  <label for="servicio" class="form-label">Servicio: Basico-> 1; Completo->2; Premium->3</label>
+ <input type="number" id="servicio">
+    </select> 
+</div>   
+<div class="mb-3">
+  <label for="pais" class="form-label">Pais de Origen: Argentina-> 1; Brasil->2; Mexico->3; Resto de Latam->4</label>
+<input type="number" id="pais">
+</div>
 
-<div id="Contenedor">
-   <h2>Hola nuevo cliente</h2>
-   <h3>Gracias por contactarnos, les recordamos nuestros tres tipos de servicios</h3></div>
+</div>
 
-   <h2 class="Tipo_ser">Basico</h2>
-   <h2 class="Tipo_ser">Completo</h2>
-   <h2 class="Tipo_ser">Premiun</h2>
-
+</form>
+</div>
+</div>
+<div class="card-footer bg-transparent border-primary">
 
 
+<button id="Enviar"> Mostrar Servicio Adquirido</button>
+</div>
 
+<div id="Detalles"></div>
+<div id="Detalles1"></div>
 
-<h3>Ingrese su nombre:</h3> <br>
-<input type="text" id="nombre"> <br>
-<button id="btnMain">Calcular Precio Final</button>
-<h2 id="Detalles"></h2>
+</div>
+</div>
 
 <div id="Nom_Ape"></div>
 
-  <script src="./clase9Ferreyra.js"></script>
+  <script src="./clase10Ferreyra.js"></script>
 </body>
 </html>
