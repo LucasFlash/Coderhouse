@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nombre": "Basico",
+        "precio": 100
+    }, 
+    {
+        "id": 2,
+        "nombre": "Completo",
+        "precio": 200
+    },
+    {
+        "id": 3,
+        "nombre": "Premium",
+        "precio": 400
+    }
+]
