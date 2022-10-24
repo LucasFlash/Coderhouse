@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Básico",
+        "precio": 100,
+        "tiempo": 12,
+        "dispositivos": 1,
+        "descuentoapp": 25
+    }, 
+    {
+        "id": 2,
+        "nombre": "Completo",
+        "precio": 200,
+        "tiempo": 18,
+        "dispositivos": 3,
+        "descuentoapp": 50
+    },
+    {
+        "id": 3,
+        "nombre": "Premium",
+        "precio": 400,
+        "tiempo": 24,
+        "dispositivos": 6,
+        "descuentoapp": 75
+    }
+]
