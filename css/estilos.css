@@ -1,0 +1,121 @@
+/*Colores de Marca Links REdes Sociales*/
+.fa-facebook {
+	background:#1877f2;
+} 
+
+.fa-linkedin {
+	background:#0a66c2;
+}
+
+.fa-twitter {
+	background: #1da1f2;
+}
+
+.fa-instagram {
+	background: #c32aa3;
+}
+
+.fa-youtube {
+	background: #ff0000;
+}
+
+/*Agregar estilos adicionales a iconos*/
+.redes {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.redes i {
+	color: #fff;
+	width: 40px;
+	height: 40px;
+    margin: 1px;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.redes a {
+	text-decoration: none;
+}
+
+.redes i:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+	opacity: .9;
+}
+
+
+/*Estilos propios para distintas etiquetas*/
+
+
+h1.a1 {
+  text-align: center;
+  color: gray;
+}
+
+h1.a2 {
+  color: white;
+}
+
+div.a1 {
+  text-align: center;
+  color: gray;
+}
+
+div.a3 {
+  text-align: center;
+}
+
+
+div.b1 {
+  display: none;
+}
+
+div.b2 {
+  display: none;
+}
+
+div.b3 {
+  display: none;
+}
+
+label.c1{
+  color: white;
+  font-weight: bold;
+}
+
+img.container-img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+div.f1{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  
+}
+
+label.l1{
+  color: red;
+}
+
+p.g1{
+  color: red;
+  font-weight: bold;
+}
+
+p.g2{
+  color: blue;
+  font-weight: bold;
+}
+
+p.g3{
+  color: green;
+  font-weight: bold;
+}
