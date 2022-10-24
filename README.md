@@ -5,9 +5,9 @@ Lucas Emanuel Ferreyra
 
 Coderhouse: Curso JavaScript: Comision 34005
 
-Web site de una sola pagina, con aplicaciones en javascript
-Formulario para suscribirte a 3 tipos de servicios de streamning
-Con envio de mail para recibir informacion de la suscripcion
+Web site de una sola pagina, con aplicaciones en javascript.
+Formulario para suscribirte a 3 tipos de servicios de streamning.
+Con envio de mail para recibir informacion de la suscripcion y calculo del precio final.
 
 librerias utilizadas(CDN):
 dayjs,
