@@ -12,11 +12,11 @@ Comision 34005
 Web site de una sola pagina, con aplicaciones en javascript
 
 librerias utilizadas(CDN):
-dayjs
-luxon
+dayjs,
+luxon,
 sweet alert 2
 
-APIs utilizadas
+APIs utilizadas:
 EmailJS
 
 Framework CSS: Bootstrap 5 ( ejemplo: pircing )
